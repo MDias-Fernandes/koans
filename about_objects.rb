@@ -10,7 +10,6 @@ class AboutObjects < Neo::Koan
   end
 
   def test_objects_can_be_converted_to_strings
-    require 'pry'; binding.pry
     assert_equal "123", 123.to_s
     assert_equal "", nil.to_s
   end
